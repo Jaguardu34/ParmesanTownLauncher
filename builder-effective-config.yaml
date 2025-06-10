@@ -1,0 +1,15 @@
+directories:
+  output: dist
+  buildResources: build
+appId: com.parmesan.town.launcher
+productName: ParmesanTownLauncher
+files:
+  - filter:
+      - '**/*'
+win:
+  target: nsis
+nsis:
+  oneClick: false
+  perMachine: false
+  allowToChangeInstallationDirectory: true
+electronVersion: 36.4.0
